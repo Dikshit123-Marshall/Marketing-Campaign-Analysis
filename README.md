@@ -1,99 +1,101 @@
-# Marketing-Campaign-Analysis
-📊 Interactive Power BI dashboard analyzing marketing campaign performance — ROI, conversions, CTR &amp; channel insights
-# 📊 Marketing Campaign Analysis – Power BI Dashboard
+# 📊 Marketing Campaign Analysis — Power BI Dashboard
 
-An interactive Power BI dashboard that analyzes **$25.69M in marketing spend** 
-across 8 campaign types and 6 global regions, tracking performance, ROI, 
-and revenue outcomes to support data-driven marketing decisions.
+An interactive Power BI dashboard analyzing **$25.69M in marketing spend** across 8 campaign types
+and 6 global regions — tracking ROI, revenue, and channel performance to support smarter marketing decisions.
 
 ---
 
-## 🔢 Key Metrics at a Glance
+## 📌 Project Overview
+
+This project analyzes real-world style marketing data to answer key business questions:
+
+- Which campaign type gives the best return on investment?
+- Which region generates the most revenue relative to spend?
+- Should budget shift from traditional to digital channels?
+
+---
+
+## 🔢 Key Metrics
 
 | Metric | Value |
-|---|---|
+|--------|-------|
 | 💰 Total Revenue | $42.54M |
 | 💸 Total Spend | $25.69M |
 | 📈 Average ROI | 0.68 |
-| 🏆 Best Campaign | Influencer Marketing |
-| 🎯 Total ROI | 676.25 |
+| 🏆 Best Campaign | Influencer Marketing (ROI: 1.10) |
+| 🌍 Top Region | Africa |
 
 ---
 
 ## 📊 Dashboard Pages & Visuals
 
-### 1. KPI Cards (Top Row)
-Four headline cards giving instant business summary:
-- Average ROI, Total Revenue, Total Spend, and Best Campaign type
+**1. KPI Cards** — Instant snapshot of Revenue, Spend, ROI, and Best Campaign
 
-### 2. Total Spend and Total Revenue by Region (Clustered Bar Chart)
-- Compares spend vs revenue across 6 regions: Africa, Asia, North America, 
-  Europe, Oceania, South America
-- Africa leads with $8.6M revenue on $5.1M spend
-- South America has lowest spend ($3.2M) and revenue ($5.4M)
+**2. Spend vs Revenue by Region** *(Clustered Bar Chart)*
+- Africa leads: $8.6M revenue on $5.1M spend
+- South America has the lowest spend and revenue
 
-### 3. Total Spend and Average of ROI by Campaign Name (Combo Chart)
-- Dual-axis: bars show Total Spend, line shows Average ROI
-- Search Engine Ads has highest spend ($3.9M), ROI = 0.80
-- Influencer Marketing has highest ROI (1.10) with $3.1M spend
-- Billboards has lowest ROI (0.45)
+**3. Spend & ROI by Campaign** *(Combo Chart)*
+- Search Engine Ads: highest spend ($3.9M), ROI = 0.80
+- Influencer Marketing: highest ROI (1.10) on $3.1M spend
+- Billboards: lowest ROI (0.45)
 
-### 4. Total ROI by Campaign Name (Horizontal Bar Chart)
-- Influencer Marketing: 137 (highest)
-- Social Media Ads & Search Engine Ads: 88 each
-- TV Commercials: 51 (lowest)
+**4. Total ROI by Campaign** *(Horizontal Bar Chart)*
+- Influencer Marketing: 137 — highest
+- TV Commercials: 51 — lowest
 
-### 5. Total Campaigns by Campaign Type (Donut Chart)
-- Digital: 62.5%
-- Traditional: 37.5%
+**5. Campaign Type Split** *(Donut Chart)*
+- Digital: 62.5% | Traditional: 37.5%
 
-### 6. Total ROI and Average of ROI (Gauge Chart)
+**6. ROI Gauge**
 - Total ROI: 676.25 out of max 1.35K
-- Average ROI pointer: 0.68
+- Average ROI: 0.68
 
 ---
 
 ## 💡 Key Insights
 
-- **Influencer Marketing** delivers the best ROI (1.10) — highest among all 
-  campaign types, making it the most efficient channel
-- **Africa** generates the highest revenue despite not having the biggest 
-  spend, suggesting strong market efficiency
-- **Digital campaigns** outpace traditional ones (62.5% share), indicating 
-  a shift toward digital marketing investment
-- **TV Commercials** have the lowest Total ROI (51), suggesting 
-  budget reallocation opportunity
-- **Billboards** have the lowest Average ROI (0.45) — the least 
-  efficient campaign type
+- **Influencer Marketing** is the most efficient channel — best ROI at 1.10
+- **Africa** delivers the strongest market efficiency — high revenue, lower spend
+- **Digital campaigns** are outperforming traditional ones significantly
+- **TV Commercials & Billboards** are the weakest performers — strong case for budget reallocation
 
 ---
 
-## 🛠️ Tools & Skills Used
+## 🛠️ Tools Used
 
-- **Power BI Desktop** — Report design, interactivity, slicers
-- **DAX** — Measures: Total Spend, Total Revenue, Average ROI, Total ROI
-- **Data Modeling** — Relationships between campaign and region tables
-- **Power Query** — Data transformation and cleaning
-- **Data Visualization** — KPI cards, combo charts, donut, gauge, bar charts
+| Tool | Purpose |
+|------|---------|
+| Power BI Desktop | Dashboard design & interactivity |
+| DAX | Measures — Total Spend, Revenue, ROI |
+| Power Query | Data cleaning & transformation |
+| Excel / CSV | Raw data source |
 
 ---
 
 ## 📁 Files
 
 | File | Description |
-|---|---|
-| `Marketing_Campaign_Analysis.pbix` | Main Power BI report file |
-| `Dashboard_Screenshot.png` | Dashboard preview image |
+|------|-------------|
+| `Marketing Campaign Analysis.pbix` | Main Power BI report |
+| `Dashboard ScreenShot.png` | Dashboard preview |
+| `marketing campaign details.csv` | Campaign-level raw data |
+| `marketing campaign performance.csv` | Performance metrics |
+| `region performance.csv` | Region-wise breakdown |
 
 ---
 
 ## 🚀 How to Open
 
-1. Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+1. Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) *(free)*
 2. Clone or download this repository
-3. Open `Marketing_Campaign_Analysis.pbix` in Power BI Desktop
-   
-## 👤 Author
+3. Open `Marketing Campaign Analysis.pbix`
 
-**Dikshit Khitta**
-LinkdIn [https://www.linkedin.com/in/dikshit-khitta7/] | [GitHub](https://github.com/Dikshit123-Marshall/)
+---
+
+## 👤 About Me
+
+**Dikshit Khitta** — Business Analytics student at CGC University, Mohali.
+Skilled in Power BI, Tableau, and Excel. Open to Data/Business Analyst roles.
+
+🔗 [LinkedIn](https://www.linkedin.com/in/dikshit-khitta7/) · 💻 [GitHub](https://github.com/Dikshit123-Marshall) · 📧 dikshitkhitta7537@gmail.com
